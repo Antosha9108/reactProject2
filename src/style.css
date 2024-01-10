@@ -1,0 +1,92 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color-scheme: light dark; */
+  /* color: rgba(255, 255, 255, 0.87); */
+  /* background-color: #242424; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #bfbfc7;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: rgb(242, 65, 72);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  /* place-items: center; */
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+}
+
+.navbar {
+  background-color: rgb(242, 65, 72);
+  display: flex;
+  width: 100vw;
+  height: 80px;
+}
+
+.navbar p {
+  margin: auto;
+  font-weight: bold;
+  color: #f9f9f9;
+
+}
+
+.card-image {
+  height: 300px;
+  width: 220px;
+  border-radius: 9px;
+  margin-bottom: 9px;
+
+}
+
+.pin {
+  height: 15px;
+  margin-top: 20px;
+}
+
+.card {
+  display: flex;
+  padding: 4em 2em 1em 3em;
+}
+
+.cardStats {
+  padding-left: 15px;
+
+}
+
+.location-stats {
+  display: flex;
+}
+
+.google-address {
+  padding-left: 1em;
+}
+
+.title {
+  margin-top: 0px;
+}
